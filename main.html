@@ -8,7 +8,7 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form method="get">
+	<form method="post">
         <label for="name">Name*</label>
         <input type="text" required id="name"><br>
 
@@ -21,7 +21,7 @@
         <input type="radio" id="female" value="Female" name="gender">
         <label for="female">Female</label><br>
 
-        <label for=" Laptop Brands"> Laptop Brands </label>
+        <label for=" laptop"> Laptop Brands </label>
         <select id="laptop" name="select"> 
             <option value="Apple" >Apple</option>
             <option value="Asus">Asus</option>
@@ -29,10 +29,10 @@
         </select><br>
 
         <label for="age">Age*</label>
-        <input type="number" name="age" id="age" min="1" max="100"><br>
+        <input type="number" name="age" id="age" min="1" max="100" required><br>
         <label for="dob">DOB*</label>
         <input type="date" id="dob" required><br>
-        <label for="password">Password:</label>
+        <label for="pwd">Password:</label>
         <input type="password" id="password" name="pwd" required><br>
         <button id="btn">Submit</button>
     </form>
