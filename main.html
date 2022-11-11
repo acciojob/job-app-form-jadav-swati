@@ -11,25 +11,29 @@
 	<form>
         <label for="name">Name*</label>
         <input type="text" required id="name"><br>
+
         <label for="email">Email*</label>
         <input type="text" required id="email"><br>
+
         <label for="gender"> Gender*</label><br>
         <input type="radio" id="male" value="male" name="gender">
         <label for="male">Male</label><br>
         <input type="radio" id="female" value="Female" name="gender">
         <label for="female">Female</label><br>
+
         <label for=" Laptop Brands"> Laptop Brands </label>
         <select id="laptop" name="select"> 
             <option value="Apple" >Apple</option>
             <option value="Asus">Asus</option>
             <option value="HP">HP</option>
         </select><br>
-        <label>Age*</label>
+
+        <label for="age">Age*</label>
         <input type="number" name="age" id="age" min="1" max="100"><br>
         <label for="dob">DOB*</label>
-        <input type="date" id="dob"><br>
+        <input type="date" id="dob" required><br>
         <label for="pwd">Password:</label>
-        <input type="password" id="password" name="pwd"><br>
+        <input type="password" id="password" name="pwd" required><br>
         <button id="btn">Submit</button>
     </form>
 	
